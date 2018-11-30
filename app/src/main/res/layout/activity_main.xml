@@ -24,6 +24,7 @@
         android:textSize="40sp"
         android:layout_below="@id/textViewMain"
         android:text="Button"
+        android:background="@android:color/holo_green_light"
         android:onClick="onButtonPress"/>
 
 </RelativeLayout>

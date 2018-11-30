@@ -7,12 +7,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 
+import java.util.Random;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        RelativeLayout mainLayout = findViewById(R.id.mainLayout);
+        mainLayout.setBackgroundColor(randomColor());
         setContentView(R.layout.activity_main);
     }
 
@@ -30,5 +33,10 @@ public class MainActivity extends AppCompatActivity {
         button.setBackgroundColor(Color.RED);
 
         int a = 0;
+    }
+
+    private int randomColor() {
+        Random rnd = new Random();
+        return Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256));
     }
 }
