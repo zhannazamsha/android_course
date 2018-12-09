@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">Первое занятие</string>
+    <string name="app_name">Второе занятие</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="header_name">Header name</string>
+
+    <string name="form_FirstName">Имя</string>
+    <string name="form_LastName">Фамилия</string>
+    <string name="form_Age">Возраст</string>
+    <string name="form_DayOfWeek">Предпочитаемый день недели</string>
+    <string name="form_DayOfWeek_Mon">Понедельник</string>
+    <string name="form_DayOfWeek_Wed">Среда</string>
+    <string name="form_DayOfWeek_Fri">Пятница</string>
+    <string name="form_Terms">Принять условия</string>
+    <string name="form_submit">Отправить</string>
 </resources>

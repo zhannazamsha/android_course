@@ -1,4 +1,4 @@
-package lv.denisskaibagarovs.lesson1;
+package lv.denisskaibagarovs.lesson2;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

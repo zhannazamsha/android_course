@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">Lesson 1</string>
+    <string name="app_name">Lesson 2</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="header_name">Header name</string>
+
+    <string name="form_FirstName">First name</string>
+    <string name="form_LastName">Last name</string>
+    <string name="form_Age">Age</string>
+    <string name="form_DayOfWeek">Prefered day of Week</string>
+    <string name="form_DayOfWeek_Mon">Monday</string>
+    <string name="form_DayOfWeek_Wed">Wednesday</string>
+    <string name="form_DayOfWeek_Fri">Friday</string>
+    <string name="form_Terms">Agree to Terms</string>
+    <string name="form_submit">Submit</string>
 </resources>
